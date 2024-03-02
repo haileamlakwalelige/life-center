@@ -59,7 +59,7 @@ const Navbar = () => {
         >
           <img
             src={logo}
-            alt="Ethiopian Nutrition Leaders Network"
+            alt=""
             className="lg:h-28 h-16  lg:w-60 lg:mr-10 navbar-logo"
           />
         </Link>
