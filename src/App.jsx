@@ -9,6 +9,7 @@ import Program from "./pages/Program";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Footer from "./components/layout/Footer";
+import Copy from "./components/layout/Copy";
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-        {/* <Copy /> */}
+        <Copy />
       </BrowserRouter>
     </div>
   );
