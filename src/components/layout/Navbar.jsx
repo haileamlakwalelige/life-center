@@ -60,7 +60,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Ethiopian Nutrition Leaders Network"
-            className="lg:h-20 h-16  lg:mr-10 navbar-logo"
+            className="lg:h-28 h-16  lg:w-60 lg:mr-10 navbar-logo"
           />
         </Link>
         <div className="menu-icon text-black00 mt-3" onClick={handleClick}>
