@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Program from "./pages/Program";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import Footer from "./components/layout/Footer";
 
 const App = () => {
   return (
@@ -24,8 +25,8 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Footer />
-        <Copy /> */}
+        <Footer />
+        {/* <Copy /> */}
       </BrowserRouter>
     </div>
   );
