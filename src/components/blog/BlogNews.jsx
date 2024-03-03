@@ -38,7 +38,7 @@ const BlogNews = () => {
                     <div className="flex flex-col justify-end text-end items-end text-slate-800 py-4">
                       <p>Apr 12, 2023</p>
                       <div className="flex gap-2 justify-end text-end items-end my-10">
-                        <div className="lg:min-w-[200px] bg-primary hover:text-primary hover:bg-white hover:border-[1px] hover:border-gray-100 py-2 px-10 text-white text-xl rounded-xl justify-end items-end flex gap-2">
+                        <div className="lg:min-w-[200px] bg-primary hover:text-primary hover:bg-[#F6FDFE] hover:border-[1px] hover:border-gray-100 py-2 px-10 text-white text-xl rounded-xl justify-end items-end flex gap-2">
                           <button>Read More</button>
                           <FaArrowRight size={24} className="mt-1.5" />
                         </div>
@@ -46,7 +46,7 @@ const BlogNews = () => {
                     </div>
                   </div>
                   {/* <div className="flex gap-2 justify-end text-end items-end my-10">
-                    <div className="lg:min-w-[200px] bg-primary hover:text-primary hover:bg-white hover:border-[1px] hover:border-gray-100 py-2 px-10 text-white text-xl rounded-xl justify-end items-end flex gap-2">
+                    <div className="lg:min-w-[200px] bg-primary hover:text-primary hover:bg-[#F6FDFE] hover:border-[1px] hover:border-gray-100 py-2 px-10 text-white text-xl rounded-xl justify-end items-end flex gap-2">
                       <button>Read More</button>
                       <FaArrowRight size={24} className="mt-1.5" />
                     </div>
