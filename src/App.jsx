@@ -10,8 +10,17 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Footer from "./components/layout/Footer";
 import Copy from "./components/layout/Copy";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS CSS file for styling
+import { useEffect } from "react";
+
+// Initialize AOS
+AOS.init();
 
 const App = () => {
+  useEffect(() => {
+    AOS.refresh();
+  }, []);
   return (
     <div className="-mt-2">
       <BrowserRouter>
