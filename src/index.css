@@ -12,6 +12,9 @@
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
 }
+body {
+    background-color: #F6FDFE;
+}
 
 .mont {
     font-family: "Montserrat", sans-serif;
