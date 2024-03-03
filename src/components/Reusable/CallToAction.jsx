@@ -35,7 +35,7 @@ const CallToAction = () => {
         </p>
         <Link to="/contact">
           <div className="flex justify-center items-center mt-10">
-            <button className="lg:min-w-[300px] bg-primary hover:text-primary hover:bg-white hover:border-[1px] hover:border-gray-100 py-4 px-10 text-white text-xl rounded-sm">
+            <button className="lg:min-w-[300px] bg-primary hover:text-primary hover:bg-[#F6FDFE] hover:border-[1px] hover:border-gray-100 py-4 px-10 text-white text-xl rounded-sm">
               Get In Touch
             </button>
           </div>
