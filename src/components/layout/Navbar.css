@@ -16,8 +16,8 @@
 }
 .hove:hover{
   color:#7AAC83;
-  font-size: 30px;
-  @apply font-semibold duration-200;
+  font-size: 22px;
+  @apply font-semibold duration-300;
 }
 
 .nav-menu {
