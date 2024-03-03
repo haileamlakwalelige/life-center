@@ -13,7 +13,7 @@ const ContactGetInTouch = () => {
         backgroundPosition: "center",
       }}
       // className="min-h-screen h-[100%] py-10 lg:py-0 lg:min-h-[70vh]"
-      className="bg-white relative lg:bg-[url(${contact})] lg:bg-cover lg:bg-center min-h-screen py-10 lg:py-0 "
+      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] lg:bg-cover lg:bg-center min-h-screen py-10 lg:py-0 "
     >
       <div
         className="h-full grid grid-cols-1 md:grid-cols-2 justify-center items-center px-2 sm:px-6 md:px-12 lg:px-20 py-20"
@@ -90,7 +90,7 @@ const ContactGetInTouch = () => {
             <div className="flex justify-center items-center mt-10">
               <button
                 type="submit"
-                className="lg:min-w-[300px] bg-primary hover:text-primary hover:bg-white hover:border-[1px] hover:border-gray-100 py-2 px-10 text-white text-xl rounded-sm"
+                className="lg:min-w-[300px] bg-primary hover:text-primary hover:bg-[#F6FDFE] hover:border-[1px] hover:border-gray-100 py-2 px-10 text-white text-xl rounded-sm"
               >
                 Send Message
               </button>
