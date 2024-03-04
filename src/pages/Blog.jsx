@@ -5,7 +5,7 @@ import BlogNews from "../components/blog/BlogNews";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <BlogIntro />
       <BlogBlog />
       <BlogNews />
