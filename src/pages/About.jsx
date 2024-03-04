@@ -8,7 +8,7 @@ import Mission from "../components/about/Mission";
 
 const About = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <AboutIntro />
       <AboutUs />
       <Mission />
