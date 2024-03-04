@@ -31,7 +31,10 @@ body {
 
 .nemo {
     border-radius: 50px;
-    /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
     box-shadow: 20px 20px 5px #cecece,
         -20px -20px 5px #f2f2f2;
+}
+.nemo:hover {
+    transform: scale(1.05);
+    @apply duration-500;
 }

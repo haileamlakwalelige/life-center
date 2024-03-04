@@ -24,7 +24,7 @@ const AboutIntro = () => {
           backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust opacity here
         }}
       >
-        <div>
+        <div data-aos="flip-up" data-aos-duration="2000">
           <p className="text-primary font-bold text-3xl md:text-4xl lg:text-5xl xl:text-7xl text-start">
             About Us
           </p>

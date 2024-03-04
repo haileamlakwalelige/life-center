@@ -22,7 +22,7 @@ const AllPrograms = () => {
   };
 
   const backgroundStyle3 = {
-    backgroundImage: "url('/src/assets/blog1.jpg')",
+    backgroundImage: "url('/src/assets/blog11.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
@@ -52,13 +52,14 @@ const AllPrograms = () => {
   };
 
   const backgroundStyle6 = {
-    backgroundImage: "url('/src/assets/gal1.jpg')",
-    // backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundImage: "url('/src/assets/gal11.jpg')",
+    backgroundSize: "contain",
+    backgroundPosition: "right 100% top 100%",
     backgroundAttachment: "fixed",
+    backgroundRepeat: "no-repeat",
     height: "70vh",
-    // width: "100%",
-    // objectFit: "cover",
+    width: "100%",
+    objectFit: "cover",
   };
   return (
     <div className="py-10 mt-20">
