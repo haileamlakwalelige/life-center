@@ -5,7 +5,7 @@ import ContactGetInTouch from "../components/contact/ContactGetInTouch";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <ContactIntro />
       <ContactMap />
       <ContactGetInTouch />
