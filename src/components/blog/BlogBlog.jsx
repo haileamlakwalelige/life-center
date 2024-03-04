@@ -3,9 +3,9 @@ import bl from "../../assets/blog1.jpg";
 import { FaArrowRight } from "react-icons/fa6";
 
 const BlogBlog = () => {
-  const blogs = [1, 2, 3, 4, 5, 6];
+  const blogs = [1, 2, 3];
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden py-10">
       <div className="flex flex-col justify-center items-center">
         <p className="text-primary font-bold text-3xl text-center pt-20 pb-8">
           Blog - Life Center: Empowering Ethiopia.
