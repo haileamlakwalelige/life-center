@@ -12,7 +12,7 @@ const WhyUs = () => {
           <div
             data-aos="flip-up"
             data-aos-duration="2000"
-            className="flex flex-col justify-center items-start  gap-5 m-10 px-10"
+            className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10"
           >
             <p className="text-black text-lg font-bold">Why Us</p>
             <p className="text-3xl font-bold mont text-primary">

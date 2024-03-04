@@ -5,6 +5,7 @@ import ProgramValue from "../components/program/ProgramValue";
 import WhyUs from "../components/home/WhyUs";
 import Horizontal from "../components/Reusable/Horizontal";
 import Reco from "../components/Reusable/Reco";
+import AllPrograms from "../components/program/AllPrograms";
 
 const Program = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
@@ -27,6 +28,7 @@ const Program = () => {
   }, []);
   return (
     <div>
+      <AllPrograms />
       <WhyUs />
       <ProgramValue />
       <HomeGallery />
