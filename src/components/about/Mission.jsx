@@ -8,7 +8,7 @@ const Mission = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="2000"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-b-2 border-t-2 border-primary py-10 px-4"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-b-2 border-t-2 border-primary pt-10 px-4"
         >
           <div>
             <p className="font-bold text-3xl lg:text-4xl text-primary py-5">
@@ -33,7 +33,7 @@ const Mission = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="2100"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-b-2 border-primary py-10 px-4 "
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-b-2 border-primary pt-10 px-4 "
         >
           <div>
             <p className="font-bold text-3xl lg:text-4xl text-primary py-5">

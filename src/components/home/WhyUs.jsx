@@ -6,7 +6,7 @@ import impa from "../../assets/impa.png";
 
 const WhyUs = () => {
   return (
-    <div className="min-h-[50vh] py-10">
+    <div className="min-h-[50vh] pt-10">
       <div className="flex justify-center items-center h-full">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div

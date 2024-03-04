@@ -12,7 +12,7 @@ const BlogIntro = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] flex justify-center items-center lg:bg-cover lg:bg-center min-h-[80vh] py-10 lg:py-0 "
+      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] flex justify-center items-center lg:bg-cover lg:bg-center min-h-[80vh] pt-10 lg:py-0 "
     >
       <div
         className="h-full grid grid-cols-1 lg:grid-cols-2 justify-center items-center px-2 sm:px-6 md:px-12 lg:px-20 py-20"

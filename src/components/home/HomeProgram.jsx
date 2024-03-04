@@ -2,8 +2,8 @@ import React from "react";
 
 const HomeProgram = () => {
   return (
-    <div className="px-2 sm:px-6 md:px-12 lg:px-20 py-10">
-      <p className="text-3xl lg:text-5xl font-bold mont text-primary py-10">
+    <div className="px-2 sm:px-6 md:px-12 lg:px-20 pt-10">
+      <p className="text-3xl lg:text-5xl font-bold mont text-primary pt-10">
         Our Programs
       </p>
       <div className="flex justify-center items-center">

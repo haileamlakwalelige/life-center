@@ -6,14 +6,14 @@ const BlogNews = () => {
   const news = [1, 2, 3];
   return (
     <div>
-      <div className="overflow-x-hidden">
+      <div className="overflow-x-hidden mx-2 sm:mx-6 md:mx-12 lg:mx-20">
+        <p className="text-primary font-bold text-2xl text-start pt-20">
+          News - Life Center Transforms Ethiopia.
+        </p>
         <div className="flex flex-col justify-center items-center">
-          <p className="text-primary font-bold text-2xl text-center pt-20">
-            News - Life Center Transforms Ethiopia.
-          </p>
           <div className="flex flex-col">
             {news.map((item, index) => (
-              <div className="flex flex-wrap lg:flex-nowrap my-10 items-start gap-10 justify-center border-[1px] rounded-xl mx-2 sm:mx-6 md:mx-12">
+              <div className="flex flex-wrap  lg:flex-nowrap my-10 items-start gap-10 justify-center border-[1px] rounded-xl ">
                 <img
                   src={bl}
                   alt=""

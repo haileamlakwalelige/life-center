@@ -5,12 +5,12 @@ import { FaArrowRight } from "react-icons/fa6";
 const BlogBlog = () => {
   const blogs = [1, 2, 3];
   return (
-    <div className="overflow-x-hidden py-10">
+    <div className="overflow-x-hidden pt-10 px-2 sm:px-6 md:px-12 lg:px-20">
+      <p className="text-primary font-bold text-3xl text-start pt-20 pb-8">
+        Blog - Life Center: Empowering Ethiopia.
+      </p>
       <div className="flex flex-col justify-center items-center">
-        <p className="text-primary font-bold text-3xl text-center pt-20 pb-8">
-          Blog - Life Center: Empowering Ethiopia.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-20 px-2 sm:px-6 md:px-12 lg:px-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-20">
           {blogs.map((items, index) => (
             <div className="lg:min-w-[400px] min-w-[300px] min-h-[400px] px-2 sm:px-4 md-px-12 border-primary border-[1px]  rounded-xl">
               <p className="font-bold text-secondary">0 {index + 1}</p>

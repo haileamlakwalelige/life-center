@@ -12,8 +12,8 @@ const ContactGetInTouch = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      // className="min-h-screen h-[100%] py-10 lg:py-0 lg:min-h-[70vh]"
-      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] lg:bg-cover lg:bg-center min-h-screen py-10 lg:py-0 "
+      // className="min-h-screen h-[100%] pt-10 lg:py-0 lg:min-h-[70vh]"
+      className="bg-[#F6FDFE] relative lg:bg-[url(${contact})] lg:bg-cover lg:bg-center min-h-screen pt-10 lg:py-0 "
     >
       <div
         className="h-full grid grid-cols-1 md:grid-cols-2 justify-center items-center px-2 sm:px-6 md:px-12 lg:px-20 py-20"
