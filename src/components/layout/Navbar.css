@@ -16,7 +16,7 @@
 }
 .hove:hover{
   color:#7AAC83;
-  font-size: 22px;
+  font-size: 20px;
   @apply font-semibold duration-300;
 }
 
