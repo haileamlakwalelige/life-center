@@ -6,8 +6,8 @@ import CallToAction from "../components/Reusable/CallToAction";
 import BlogBlog from "../components/blog/BlogBlog";
 import HomeProgram from "../components/home/HomeProgram";
 import HomeGallery from "../components/home/HomeGallery";
-import Testimonials from "../components/Reusable/Testimonials";
-import reviews from "../data/data";
+// import Testimonials from "../components/Reusable/Testimonials";
+// import reviews from "../data/data";
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
       <HomeProgram />
       <BlogBlog />
       <HomeGallery />
-      <Testimonials reviews={reviews} />
+      {/* <Testimonials reviews={reviews} /> */}
       <CallToAction />
     </div>
   );
