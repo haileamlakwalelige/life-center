@@ -1,66 +1,12 @@
 import React from "react";
+import backgroundStyle1 from "../../assets/kids.jpg";
+import backgroundStyle2 from "../../assets/gal4.jpg";
+import backgroundStyle3 from "../../assets/blog1.jpg";
+import backgroundStyle4 from "../../assets/news.jpg";
+import backgroundStyle5 from "../../assets/women.jpg";
+import backgroundStyle6 from "../../assets/gal11.jpg";
 
 const AllPrograms = () => {
-  const backgroundStyle1 = {
-    backgroundImage: "url('/src/assets/kids.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    height: "70vh",
-    width: "100%",
-    objectFit: "cover",
-  };
-
-  const backgroundStyle2 = {
-    backgroundImage: "url('/src/assets/gal4.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    height: "70vh",
-    width: "100%",
-    objectFit: "cover",
-  };
-
-  const backgroundStyle3 = {
-    backgroundImage: "url('/src/assets/blog11.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    height: "70vh",
-    width: "100%",
-    objectFit: "cover",
-  };
-
-  const backgroundStyle4 = {
-    backgroundImage: "url('/src/assets/news.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    height: "70vh",
-    width: "100%",
-    objectFit: "cover",
-  };
-
-  const backgroundStyle5 = {
-    backgroundImage: "url('/src/assets/women.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundAttachment: "fixed",
-    height: "70vh",
-    width: "100%",
-    objectFit: "cover",
-  };
-
-  const backgroundStyle6 = {
-    backgroundImage: "url('/src/assets/gal11.jpg')",
-    backgroundSize: "contain",
-    backgroundPosition: "right 100% top 100%",
-    backgroundAttachment: "fixed",
-    backgroundRepeat: "no-repeat",
-    height: "70vh",
-    width: "100%",
-    objectFit: "cover",
-  };
   return (
     <div className="py-10 mt-20">
       <div className="flex justify-center items-center min-h-[40vh]">
@@ -85,12 +31,24 @@ const AllPrograms = () => {
               their communities.
             </p>
           </div>
-          <div style={backgroundStyle1}></div>
+          <div>
+            <img
+              src={backgroundStyle1}
+              alt=""
+              className="lg:min-h-[70vh] min-w-full"
+            />
+          </div>
         </div>
 
         {/* Element 2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center min-h-[70vh]">
-          <div style={backgroundStyle2}></div>
+          <div>
+            <img
+              src={backgroundStyle2}
+              alt=""
+              className="lg:min-h-[70vh] min-w-full"
+            />
+          </div>
           <div className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10">
             <p className="text-primary text-2xl font-semibold text-center">
               Widows&apos; Empowerment Program
@@ -133,12 +91,24 @@ const AllPrograms = () => {
               overall quality of life for residents in target areas.
             </p>
           </div>
-          <div style={backgroundStyle3}></div>
+          <div>
+          <img
+              src={backgroundStyle3}
+              alt=""
+              className="lg:min-h-[70vh] min-w-full"
+            />
+          </div>
         </div>
 
         {/* Element 4 */}
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center min-h-[70vh]">
-          <div style={backgroundStyle4}></div>
+          <div >
+          <img
+              src={backgroundStyle4}
+              alt=""
+              className="lg:min-h-[70vh] min-w-full"
+            />
+          </div>
           <div className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10">
             <p className="text-primary text-2xl font-semibold text-center">
               Education Enhancement Program
@@ -182,12 +152,24 @@ const AllPrograms = () => {
               their journey towards healing and recovery
             </p>
           </div>
-          <div style={backgroundStyle5}></div>
+          <div>
+          <img
+              src={backgroundStyle5}
+              alt=""
+              className="lg:min-h-[70vh] min-w-full"
+            />
+          </div>
         </div>
 
         {/* Element 6 */}
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center min-h-[70vh]">
-          <div style={backgroundStyle6}></div>
+          <div>
+          <img
+              src={backgroundStyle6}
+              alt=""
+              className="lg:min-h-[70vh] min-w-full"
+            />
+          </div>
           <div className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10">
             <p className="text-primary text-2xl font-semibold text-center">
               Livelihood Development Projects
