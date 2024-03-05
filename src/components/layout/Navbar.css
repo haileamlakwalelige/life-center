@@ -14,10 +14,39 @@
   font-size: 2rem;
   margin-left: 30px;
 }
-.hove:hover{
-  color:#7AAC83;
-  font-size: 20px;
-  @apply font-semibold duration-300;
+.hove {
+  font-weight: normal;
+  /* Ensure the default font weight */
+  position: relative;
+  @apply pb-4;
+  /* Position relative for absolute positioning of pseudo-element */
+}
+
+.hove::after {
+  content: '';
+  /* Add a pseudo-element */
+  position: absolute;
+  /* Position the pseudo-element absolutely */
+  bottom: 0;
+  /* Position it at the bottom */
+  right: 100%;
+  /* Initially position it outside the element */
+  width: 0;
+  /* Set initial width to 0 */
+  height: 3px;
+  /* Set the height of the border */
+  /* background-color: #000; */
+  /* Set the color of the border */
+  transition: width 0.5s ease, right 0.5s ease;
+  /* Add transitions for width and left properties */
+  @apply bg-primary;
+}
+
+.hove:hover::after {
+  width: 100%;
+  /* Expand the border to the full width of the element */
+  right: 0;
+  /* Move the border to the left edge of the element */
 }
 
 .nav-menu {

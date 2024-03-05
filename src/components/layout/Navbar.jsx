@@ -40,13 +40,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-screen top-0 py-2  ${
+      className={`fixed w-screen top-0 -mt-6 py-2  ${
         scrolled ? "bg-[#fff] z-50" : " lg:bg-transparent z-20"
       }`}
     >
       <nav
         className={`navbar py-2 sticky top-0   ${
-          scrolled ? "lg:bg-white z-50" : " lg:bg-transparent z-20"
+          scrolled ? "lg:bg-white z-50" : "bg-white lg:bg-transparent z-20"
         }`}
       >
         <Link
@@ -61,9 +61,8 @@ const Navbar = () => {
           <img
             src={scrolled ? logo : logo2}
             alt=""
-            className="lg:h-28 h-16 w-28  lg:w-60 lg:mr-10 navbar-logo"
+            className="h-28 -mt-16 -ml-6 md:-mt-10 w-36  lg:w-60 lg:mr-10 navbar-logo"
           />
-          <p className="text-secondary hidden">Life Center</p>
         </Link>
         <div className="menu-icon text-black00 mt-3" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
