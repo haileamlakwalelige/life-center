@@ -3,12 +3,12 @@ import React from "react";
 const HomeProgram = () => {
   return (
     <div className="px-2 sm:px-6 md:px-12 lg:px-20 pt-10">
-      <p className="text-3xl lg:text-5xl font-bold mont text-primary py-10">
+      <p className="text-3xl lg:text-5xl font-bold mont text-primary py-10 px-4">
         Our Programs
       </p>
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 border-t-[1px] border-b-[1px] border-gray-400 justify-start items-start">
-          <div className="flex flex-col min-h-[200px] justify-center items-center  gap-5 m-10 p-10 border-b-[1px] border-primary">
+          <div className="flex flex-col min-h-[200px] justify-center items-center  gap-5 m-2 p-2 lg:m-10 lg:p-10 border-b-[1px] border-primary">
             <p className="text-slate-700 text-center text-lg font-bold">
               Orphans and Vulnerable Children (OVC) Support Program
             </p>
@@ -20,7 +20,7 @@ const HomeProgram = () => {
           </div>
 
           {/* Two */}
-          <div className="flex flex-col min-h-[230px] justify-center items-center  gap-5 m-10 p-10 border-b-[1px] border-primary">
+          <div className="flex flex-col min-h-[230px] justify-center items-center  gap-5 m-2 p-2 lg:m-10 lg:p-10 border-b-[1px] border-primary">
             <p className="text-slate-700 text-center text-lg font-bold">
               Widows&apos; Empowerment Program
             </p>
@@ -32,7 +32,7 @@ const HomeProgram = () => {
           </div>
 
           {/* Three */}
-          <div className="flex flex-col min-h-[230px] justify-center items-center  gap-5 m-10 p-10 border-b-[1px] border-primary">
+          <div className="flex flex-col min-h-[230px] justify-center items-center  gap-5 m-2 p-2 lg:m-10 lg:p-10 border-b-[1px] border-primary">
             <p className="text-slate-700 text-center text-lg font-bold">
               Community Development Initiatives
             </p>
@@ -44,7 +44,7 @@ const HomeProgram = () => {
           </div>
 
           {/* Four */}
-          <div className="flex flex-col min-h-[230px] justify-center items-center  gap-5 m-10 p-10 border-b-[1px] border-primary">
+          <div className="flex flex-col min-h-[230px] justify-center items-center  gap-5 m-2 p-2 lg:m-10 lg:p-10 border-b-[1px] border-primary">
             <p className="text-slate-700 text-center text-lg font-bold">
               Education Enhancement Program
             </p>
@@ -56,7 +56,7 @@ const HomeProgram = () => {
           </div>
 
           {/* five */}
-          <div className="flex flex-col min-h-[200px] justify-center items-center  gap-5 m-10 p-10  border-primary">
+          <div className="flex flex-col min-h-[200px] justify-center items-center  gap-5 m-2 p-2 lg:m-10 lg:p-10  border-primary">
             <p className="text-slate-700 text-center text-lg font-bold">
               Psychological Support Services
             </p>
@@ -68,7 +68,7 @@ const HomeProgram = () => {
           </div>
 
           {/* Six */}
-          <div className="flex flex-col min-h-[200px] justify-center items-center  gap-5 m-10 p-10 border-primary">
+          <div className="flex flex-col min-h-[200px] justify-center items-center  gap-5 m-2 p-2 lg:m-10 lg:p-10 border-primary">
             <p className="text-slate-700 text-center text-lg font-bold">
               Livelihood Development Projects
             </p>
