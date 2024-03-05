@@ -3,7 +3,7 @@ import CallToAction from "../components/Reusable/CallToAction";
 import HomeGallery from "../components/home/HomeGallery";
 import ProgramValue from "../components/program/ProgramValue";
 import WhyUs from "../components/home/WhyUs";
-import Horizontal from "../components/Reusable/Horizontal";
+// import Horizontal from "../components/Reusable/Horizontal";
 import Reco from "../components/Reusable/Reco";
 import AllPrograms from "../components/program/AllPrograms";
 
@@ -32,7 +32,7 @@ const Program = () => {
       <WhyUs />
       <ProgramValue />
       <HomeGallery />
-      {isLargeScreen ? <Horizontal /> : <Reco />}
+      <Reco />
       <CallToAction />
     </div>
   );

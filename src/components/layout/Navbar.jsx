@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaTimes, FaBars } from "react-icons/fa";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.jpg";
+import logo2 from "../../assets/logo2.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -39,29 +40,30 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-screen top-0 py-2 z-50 ${
-        scrolled ? "bg-[#212741] lg:text-white" : " lg:bg-transparent "
+      className={`fixed w-screen top-0 py-2  ${
+        scrolled ? "bg-[#fff] z-50" : " lg:bg-transparent z-20"
       }`}
     >
       <nav
-        className={`navbar py-2 sticky top-0  z-50 ${
-          scrolled ? "lg:bg-[#212741] lg:text-white" : " lg:bg-transparent "
+        className={`navbar py-2 sticky top-0   ${
+          scrolled ? "lg:bg-white z-50" : " lg:bg-transparent z-20"
         }`}
       >
         <Link
           to="/"
           className={`${
             scrolled
-              ? " flex items-start lg:items-end lg:bg-[#212741] lg:text-white   justify-start lg:justify-end "
+              ? " flex items-start lg:items-end lg:bg-white   justify-start lg:justify-end "
               : " flex items-start  lg:items-end justify-start lg:justify-end "
           }`}
           onClick={closeMobileMenu}
         >
           <img
-            src={logo}
+            src={scrolled ? logo : logo2}
             alt=""
-            className="lg:h-28 h-16  lg:w-60 lg:mr-10 navbar-logo"
+            className="lg:h-28 h-16 w-28  lg:w-60 lg:mr-10 navbar-logo"
           />
+          <p className="text-secondary hidden">Life Center</p>
         </Link>
         <div className="menu-icon text-black00 mt-3" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
@@ -69,7 +71,7 @@ const Navbar = () => {
         <ul
           className={
             click
-              ? "nav-menu active lg:gap-10 -mr-20 overflow-x-hidden justify-center items-center lg:bg-[#212741] lg:text-white"
+              ? "nav-menu active lg:gap-10 -mr-20 overflow-x-hidden justify-center items-center lg:bg-[#fff]"
               : "nav-menu lg:gap-10 -mr-20 overflow-x-hidden  justify-center font-normal items-center"
           }
         >
@@ -78,8 +80,8 @@ const Navbar = () => {
               to="/"
               className={`${
                 scrolled
-                  ? " py-2 px-3 md:p-0 text-[#FF9700] lg:text-white  flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove font-serif"
-                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove font-serif"
+                  ? " py-2 px-3 md:p-0 text-[#FF9700]   flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove "
+                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove "
               }`}
               onClick={closeMobileMenu}
             >
@@ -91,8 +93,8 @@ const Navbar = () => {
               to="/about"
               className={`${
                 scrolled
-                  ? " py-2 px-3 md:p-0 text-[#FF9700] lg:text-white  flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove font-serif"
-                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove font-serif"
+                  ? " py-2 px-3 md:p-0 text-[#FF9700]   flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove "
+                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove "
               }`}
               onClick={closeMobileMenu}
             >
@@ -104,8 +106,8 @@ const Navbar = () => {
               to="/program"
               className={`${
                 scrolled
-                  ? " py-2 px-3 md:p-0 text-[#FF9700] lg:text-white  flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove font-serif"
-                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove font-serif"
+                  ? " py-2 px-3 md:p-0 text-[#FF9700]   flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove "
+                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove "
               }`}
               onClick={closeMobileMenu}
             >
@@ -117,8 +119,8 @@ const Navbar = () => {
               to="/blog"
               className={`${
                 scrolled
-                  ? " py-2 px-3 md:p-0 text-[#FF9700] lg:text-white  flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove font-serif"
-                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove font-serif"
+                  ? " py-2 px-3 md:p-0 text-[#FF9700]   flex justify-center items-center offer lg:text-2xl rounded md:bg-transparent text-center hove "
+                  : " py-2 px-3 md:p-0 text-[#FF9700] flex justify-center items-center  text-center  lg:text-2xl rounded md:bg-transparent  hove "
               }`}
               onClick={closeMobileMenu}
             >
@@ -128,7 +130,7 @@ const Navbar = () => {
           <li className="nav-item ">
             <Link
               to="/contact"
-              className="nav-links but  hover:rounded-3xl lg:rounded-3xl lg:bg-[#FF7700] lg:text-white font-normal"
+              className="nav-links but  hover:rounded-3xl lg:rounded-3xl lg:bg-[#FF7700]  font-normal"
               onClick={closeMobileMenu}
             >
               Contact

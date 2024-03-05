@@ -25,7 +25,7 @@ const App = () => {
     <div className="-mt-2">
       <BrowserRouter>
         <ScrollToTop />
-        <div className="mb-32">
+        <div>
           <Navbar />
         </div>
         <Routes>

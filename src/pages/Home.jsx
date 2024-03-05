@@ -6,7 +6,7 @@ import CallToAction from "../components/Reusable/CallToAction";
 import BlogBlog from "../components/blog/BlogBlog";
 import HomeProgram from "../components/home/HomeProgram";
 import HomeGallery from "../components/home/HomeGallery";
-import Horizontal from "../components/Reusable/Horizontal";
+// import Horizontal from "../components/Reusable/Horizontal";
 import Reco from "../components/Reusable/Reco";
 // import Testimonials from "../components/Reusable/Testimonials";
 // import reviews from "../data/data";
@@ -38,7 +38,7 @@ const Home = () => {
       <HomeProgram />
       <BlogBlog />
       <HomeGallery />
-      {isLargeScreen ? <Horizontal /> : <Reco />}
+       <Reco />
       {/* <Testimonials reviews={reviews} /> */}
       <CallToAction />
     </div>
