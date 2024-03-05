@@ -1,8 +1,5 @@
 import React from "react";
 import contact from "../../assets/contact2.jpg";
-import blog from "../../assets/blog.jpg";
-import mom from "../../assets/mom.jpg";
-import kids from "../../assets/kids.jpg";
 import { Link } from "react-router-dom";
 
 const HomeIntro = () => {
@@ -25,8 +22,6 @@ const HomeIntro = () => {
           top: 0,
           left: 0,
           width: "100%",
-          // height: "100%",
-          // backgroundColor: "rgba(0, 0, 0, 0.5)", 
         }}
       >
         <div
