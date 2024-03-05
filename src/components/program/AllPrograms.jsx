@@ -35,7 +35,7 @@ const AllPrograms = () => {
             <img
               src={backgroundStyle1}
               alt=""
-              className="lg:min-h-[70vh] min-w-full"
+              className="lg:min-h-[70vh] min-w-full hidden md:flex"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ const AllPrograms = () => {
             <img
               src={backgroundStyle2}
               alt=""
-              className="lg:min-h-[70vh] min-w-full"
+              className="lg:min-h-[70vh] min-w-full hidden md:flex"
             />
           </div>
           <div className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10">
@@ -92,21 +92,21 @@ const AllPrograms = () => {
             </p>
           </div>
           <div>
-          <img
+            <img
               src={backgroundStyle3}
               alt=""
-              className="lg:min-h-[70vh] min-w-full"
+              className="lg:min-h-[70vh] min-w-full hidden md:flex"
             />
           </div>
         </div>
 
         {/* Element 4 */}
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center min-h-[70vh]">
-          <div >
-          <img
+          <div>
+            <img
               src={backgroundStyle4}
               alt=""
-              className="lg:min-h-[70vh] min-w-full"
+              className="lg:min-h-[70vh] min-w-full hidden md:flex"
             />
           </div>
           <div className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10">
@@ -153,10 +153,10 @@ const AllPrograms = () => {
             </p>
           </div>
           <div>
-          <img
+            <img
               src={backgroundStyle5}
               alt=""
-              className="lg:min-h-[70vh] min-w-full"
+              className="lg:min-h-[70vh] min-w-full hidden md:flex"
             />
           </div>
         </div>
@@ -164,10 +164,10 @@ const AllPrograms = () => {
         {/* Element 6 */}
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center min-h-[70vh]">
           <div>
-          <img
+            <img
               src={backgroundStyle6}
               alt=""
-              className="lg:min-h-[70vh] min-w-full"
+              className="lg:min-h-[70vh] min-w-full hidden md:flex"
             />
           </div>
           <div className="flex flex-col justify-center items-start  gap-5 m-2 lg:m-10 px-2 lg:px-10">
