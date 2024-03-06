@@ -48,7 +48,7 @@ const Navbar = () => {
         className={`navbar py-2 sticky top-0   ${
           scrolled
             ? "lg:bg-white z-50"
-            : "bg-white inset-0 backdrop-blur-xl lg:bg-transparent z-20"
+            : "bg-white inset-0 backdrop-blur-xl z-20"
         }`}
       >
         <Link
@@ -61,9 +61,9 @@ const Navbar = () => {
           onClick={closeMobileMenu}
         >
           <img
-            src={scrolled ? logo : logo2}
+            src={logo}
             alt=""
-            className="h-28 -mt-16 -ml-6 md:mt-3 w-36  lg:w-60 lg:mr-10 navbar-logo"
+            className="h-24 md:mt-3 -mt-10 lg:mt-0 w-28 ml-6 md:ml-20  lg:mr-20 navbar-logo"
           />
         </Link>
         <div className="menu-icon text-black00 mt-3" onClick={handleClick}>
