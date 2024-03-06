@@ -28,7 +28,7 @@ const HomeIntro = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="px-10 flex-col flex w-screen text-center justify-center items-center"
+          className="px-10 flex-col flex w-screen text-center justify-center items-center lg:ml-20"
         >
           <p className="font-bold text-[40px] md:text-[50px] lg:text-[60px] text-white lg:pt-20">
             Welcome to LIFE CENTER
