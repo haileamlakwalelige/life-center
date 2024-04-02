@@ -13,6 +13,8 @@ import Copy from "./components/layout/Copy";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS file for styling
 import { useEffect } from "react";
+import BlogDetail from "./pages/BlogDetail";
+import NewsDetail from "./pages/NewsDetail";
 
 // Initialize AOS
 AOS.init();
@@ -33,7 +35,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/program" element={<Program />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/news/:id" element={<NewsDetail />} />
         </Routes>
         <Footer />
         <Copy />
