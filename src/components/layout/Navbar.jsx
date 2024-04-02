@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaTimes, FaBars } from "react-icons/fa";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 import logo2 from "../../assets/logo2.png";
 
 const Navbar = () => {
@@ -15,8 +15,8 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 0 || window.innerWidth < 768;
-      console.log("is scrolled,", isScrolled);
-      console.log("window inner length", window.innerWidth);
+      // console.log("is scrolled,", isScrolled);
+      // console.log("window inner length", window.innerWidth);
       setScrolled(isScrolled);
     };
 
