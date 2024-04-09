@@ -8,7 +8,7 @@ const BlogBlog = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://192.168.100.29:8000/api/blogs");
+        const response = await fetch("https://admin.lifecenterethiopia.com/api/blogs");
         const data = await response.json();
         // console.log(data); // assuming data is JSON
         setBlogs(data); // update state with fetched data
@@ -29,13 +29,13 @@ const BlogBlog = () => {
           {blogs.map((items, index) => (
             <div
               key={items.id}
-              className="lg:min-w-[400px] min-w-[300px] min-h-[400px] px-2 sm:px-4 md-px-12 border-primary border-[1px]  rounded-xl"
+              className="lg:min-w-[400px] min-h-full min-w-[300px] px-2 sm:px-4 md-px-12 border-primary border-[1px]  rounded-xl"
             >
               <p className="font-bold text-secondary">0 {index + 1}</p>
               <img
-                src={items.image}
+                src={` https://admin.lifecenterethiopia.com/${items.image}`}
                 alt=""
-                className="min-h-[100px] rounded-xl"
+                className="min-h-full min-w-full rounded-xl"
               />
               <p className="text-primary text-2xl font-medium py-4">
                 {items.title}
