@@ -63,7 +63,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt=""
-            className="h-24 md:mt-3 -mt-10 lg:mt-0 w-28 ml-6 md:ml-20  lg:mr-20 navbar-logo"
+            className="h-24 -mt-10 lg:mt-0 w-28 ml-6 md:ml-20  lg:mr-20 navbar-logo"
           />
         </Link>
         <div className="menu-icon text-black00 mt-3" onClick={handleClick}>
